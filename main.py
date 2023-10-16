@@ -44,4 +44,5 @@ def app(title=None)-> None:
                                 data=html_file.read(),
                                 file_name="test_report.html")
 
-app(title='Exploratory Data Analysis')
+if __name__ == "__main__":
+    app(title='Exploratory Data Analysis')
