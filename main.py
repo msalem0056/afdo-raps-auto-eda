@@ -16,7 +16,10 @@ def app(title=None)-> None:
         title (string, optional): The App name. Defaults to None.
     """
     st.title(title)
-    st.markdown("### Developer: Mike Salem [Linked In](https://www.linkedin.com/in/mike-salem)")
+    col1, col2, col3 = st.columns([0.1,.015,.1])
+    col1.markdown("### Developer: Mike Salem")
+    col2.image("LI-In-Bug.jpg", width=48)
+    col3.markdown("### [LinkedIn](https://www.linkedin.com/in/mike-salem/)")    
     st.write("Description: The following app was created to showcase exploratory data analysis using Python. You can upload your own file in .csv format as well. The current example use the breast cancer dataset, but adding your own will utilize the latest.")
 
 
