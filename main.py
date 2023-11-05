@@ -16,7 +16,7 @@ def app(title=None)-> None:
         title (string, optional): The App name. Defaults to None.
     """
     st.title(title)
-    st.write("Developer: Mike Salem")
+    st.markdown("### Developer: Mike Salem [Linked In](https://www.linkedin.com/in/mike-salem)")
     st.write("Description: The following app was created to showcase exploratory data analysis using Python. You can upload your own file in .csv format as well. The current example use the breast cancer dataset, but adding your own will utilize the latest.")
 
 
